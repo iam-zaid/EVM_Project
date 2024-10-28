@@ -1,2 +1,2 @@
 # EVM_Project
-Final Project for Software Development course
+This repository contains the code for the project of Software Development Project. 
