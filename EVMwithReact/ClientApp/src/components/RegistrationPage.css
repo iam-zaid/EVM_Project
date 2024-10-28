@@ -1,0 +1,52 @@
+﻿.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Changed to min-height */
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    width: 90%; /* New */
+    max-width: 400px; /* Increased from 300px */
+    margin: auto;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-sizing: border-box; /* New */
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem; /* New */
+}
+
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid #ddd;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    label,
+    input,
+    button {
+        font-size: 0.9rem; /* Smaller font size on smaller screens */
+    }
+}
